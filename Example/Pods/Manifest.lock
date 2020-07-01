@@ -1,0 +1,16 @@
+PODS:
+  - Stylish (0.1.0)
+
+DEPENDENCIES:
+  - Stylish (from `../`)
+
+EXTERNAL SOURCES:
+  Stylish:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Stylish: 4322376f590514e5478be3a62d9653b2394cc947
+
+PODFILE CHECKSUM: be97578184e168dfcc1c1f6ffe0e8be8a55bbc58
+
+COCOAPODS: 1.9.3

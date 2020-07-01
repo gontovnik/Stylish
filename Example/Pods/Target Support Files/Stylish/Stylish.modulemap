@@ -1,0 +1,6 @@
+framework module Stylish {
+  umbrella header "Stylish-umbrella.h"
+
+  export *
+  module * { export * }
+}
