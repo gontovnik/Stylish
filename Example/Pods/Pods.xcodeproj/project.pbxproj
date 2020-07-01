@@ -7,130 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0771152B8D4EC80E62B5C8627700AD08 /* Stylish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3480CC51E29A848164734E5C93E97 /* Stylish.swift */; };
-		09725C64056B0561742CB5BB0582959E /* Stylish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 326AC3D8C7D65C38241F2D8EABFD2518 /* Stylish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DB423BAF85D93CD7BC889AC30DCD2FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		67176E6D9C6C8225F619FA1D4AD32A60 /* Pods-Stylish_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E780777E66D7D0396C0A0FB1199A63 /* Pods-Stylish_Example-dummy.m */; };
-		9FAF63B9BC666547A056FEBFCEC5E9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A082B8EEAC1B6150BECAB42976486FB5 /* Pods-Stylish_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B227A3322CC953B4D21E884B226B209 /* Pods-Stylish_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1889F5B493404EE041DB4B2C187B340 /* Stylish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97602D66572845ED8E24B5864A139A25 /* Stylish-dummy.m */; };
+		19427DCA9915628BF49560C96DBFD2A6 /* Pods-StylishSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B59DF8035C78E64DEB19E69821CE52AC /* Pods-StylishSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2783215E0022D384BC6C54A0D6FA68FA /* StylishSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C65C8D512C7587746964460501155F /* StylishSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		340EEC1ADA63493B89F4BE48117E3772 /* Pods-StylishSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C57DC742A935FDD0A8039080A09ACE3 /* Pods-StylishSwift_Example-dummy.m */; };
+		41E4E92116E21DFB56D74A5A731EEFB6 /* StylishSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910ACE8F3F263C26FB20A0800F05F68 /* StylishSwift.swift */; };
+		760849AF27D0DE58B63221EF74A2512D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		815A9712D61FEA4FAA039F1D9957B632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F372146C85189AAFF2AC718369808348 /* StylishSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F941ADC1C2395AB7B9BC8AC5A7756 /* StylishSwift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		500CD10EBD0FAAA4647424EE2C2BE461 /* PBXContainerItemProxy */ = {
+		575E1DC8DE9D22D8BBF36E28E9386427 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7CCB5021DB319811F34C02ACDE9AB25D;
-			remoteInfo = Stylish;
+			remoteGlobalIDString = 01D49C99B9C0B5825C877B5C566B1C1A;
+			remoteInfo = StylishSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09E780777E66D7D0396C0A0FB1199A63 /* Pods-Stylish_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stylish_Example-dummy.m"; sourceTree = "<group>"; };
-		1CE3480CC51E29A848164734E5C93E97 /* Stylish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stylish.swift; path = Stylish/Classes/Stylish.swift; sourceTree = "<group>"; };
-		252524C88E1F61C21F6ADF5CA786C9B3 /* Pods_Stylish_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Stylish_Example.framework; path = "Pods-Stylish_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B227A3322CC953B4D21E884B226B209 /* Pods-Stylish_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stylish_Example-umbrella.h"; sourceTree = "<group>"; };
+		03CB1013A947C3B77FBA5EC0B3A3D418 /* StylishSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StylishSwift.modulemap; sourceTree = "<group>"; };
+		14CF620D30770265EFB4C0AE4BB2F5C9 /* Pods-StylishSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StylishSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A797D6EEBF4F0BB077354741B673C90 /* StylishSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StylishSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E264ED7CAE3A2BE198F6A4B31FA6FAA /* Pods_StylishSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StylishSwift_Example.framework; path = "Pods-StylishSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE08789BEF31BCB78D84EB5CDEAACCC /* StylishSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StylishSwift.framework; path = StylishSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		326AC3D8C7D65C38241F2D8EABFD2518 /* Stylish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stylish-umbrella.h"; sourceTree = "<group>"; };
-		3B70951E95FE425CEC0C7944EC2AB6A7 /* Stylish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Stylish.framework; path = Stylish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FD927FD41C835722AB4EE0FA30EA00B /* Stylish-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Stylish-Info.plist"; sourceTree = "<group>"; };
-		61DEAF5B69ADE9DEBEFCBEABAD0BB9F8 /* Stylish-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stylish-prefix.pch"; sourceTree = "<group>"; };
-		6B7AE5C5B576515CEC14D1CFBBCABE85 /* Pods-Stylish_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stylish_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		79DFD7D5B15BC85A6086868B98173E35 /* Pods-Stylish_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stylish_Example-Info.plist"; sourceTree = "<group>"; };
-		7CDEAA42FED33F1D61EE720345558D69 /* Pods-Stylish_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stylish_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		826D04DF0E57CC8EA02BB7BE5BDC954D /* Pods-Stylish_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stylish_Example.release.xcconfig"; sourceTree = "<group>"; };
-		85C2201052C9AB3351281664C64052FD /* Pods-Stylish_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stylish_Example.modulemap"; sourceTree = "<group>"; };
-		8DDD74126B40111E0E057ADCC6AC11F4 /* Stylish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Stylish.modulemap; sourceTree = "<group>"; };
-		97602D66572845ED8E24B5864A139A25 /* Stylish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Stylish-dummy.m"; sourceTree = "<group>"; };
+		3C7F55CACAD875BA70A237C611F49869 /* StylishSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StylishSwift-Info.plist"; sourceTree = "<group>"; };
+		3F6C7B043C3CE54730946347790B910A /* Pods-StylishSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StylishSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4910ACE8F3F263C26FB20A0800F05F68 /* StylishSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StylishSwift.swift; path = StylishSwift/Classes/StylishSwift.swift; sourceTree = "<group>"; };
+		52467A906EFFD0BD3CD146E11805B221 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		56C65C8D512C7587746964460501155F /* StylishSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StylishSwift-umbrella.h"; sourceTree = "<group>"; };
+		6766685B4402BD571030D436C028F1CA /* Pods-StylishSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StylishSwift_Example.modulemap"; sourceTree = "<group>"; };
+		6C57DC742A935FDD0A8039080A09ACE3 /* Pods-StylishSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StylishSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		71628227A8DA860D654BE584D3C6B5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74EF124908B1F89B1C0AB53E7FF1221C /* StylishSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StylishSwift-prefix.pch"; sourceTree = "<group>"; };
+		8AF6975A750A10BADFE42B677453FAA9 /* Pods-StylishSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StylishSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9B3DAAFED6AF72A6B8F926FDA0EA1C3B /* Pods-StylishSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylishSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B09D997517651E083AA4F1BB82DC77EC /* Stylish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stylish.release.xcconfig; sourceTree = "<group>"; };
-		B3A35C46703CFEA51E2F0902AEF637AD /* Stylish.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Stylish.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C4A2290470216C988830E63B88E019B3 /* Pods-Stylish_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stylish_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C72CC48828107B15087C5672992EAB7B /* Stylish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stylish.debug.xcconfig; sourceTree = "<group>"; };
-		CBCE2A613833219477D456CDEE1F69EB /* Pods-Stylish_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stylish_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FA8BA6B7D0E052FB50C69C749553C39B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FF644BC14DD4CE7F39F731DE0658F4F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A1C820F8E08D91FFE6D6397FCD4B2BF9 /* Pods-StylishSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StylishSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		B59DF8035C78E64DEB19E69821CE52AC /* Pods-StylishSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StylishSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		C125B60892A9858ACBDE1D1CAFE51988 /* Pods-StylishSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylishSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C782A6C5D362321AD9DF8967880093DF /* StylishSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StylishSwift.debug.xcconfig; sourceTree = "<group>"; };
+		DD6F941ADC1C2395AB7B9BC8AC5A7756 /* StylishSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StylishSwift-dummy.m"; sourceTree = "<group>"; };
+		E7C4EEEF5E28FFE531A3A951AD986699 /* StylishSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StylishSwift.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		68AC8FD11CE2B3DE02D9CD9C69FEE000 /* Frameworks */ = {
+		5D5B0D45915EEE2F2148FB8F9F7EF6D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DB423BAF85D93CD7BC889AC30DCD2FD /* Foundation.framework in Frameworks */,
+				815A9712D61FEA4FAA039F1D9957B632 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD3AD9564ED38FC50ACCC3A94C7132AC /* Frameworks */ = {
+		6160B5439F9A882B6A17EFFEBCE16BE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FAF63B9BC666547A056FEBFCEC5E9E3 /* Foundation.framework in Frameworks */,
+				760849AF27D0DE58B63221EF74A2512D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28BC02AD92961D7011463FE9A7A84D7B /* Pods-Stylish_Example */ = {
+		4770358459D2DB42ADB03DEE4EAE083E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				85C2201052C9AB3351281664C64052FD /* Pods-Stylish_Example.modulemap */,
-				7CDEAA42FED33F1D61EE720345558D69 /* Pods-Stylish_Example-acknowledgements.markdown */,
-				CBCE2A613833219477D456CDEE1F69EB /* Pods-Stylish_Example-acknowledgements.plist */,
-				09E780777E66D7D0396C0A0FB1199A63 /* Pods-Stylish_Example-dummy.m */,
-				C4A2290470216C988830E63B88E019B3 /* Pods-Stylish_Example-frameworks.sh */,
-				79DFD7D5B15BC85A6086868B98173E35 /* Pods-Stylish_Example-Info.plist */,
-				2B227A3322CC953B4D21E884B226B209 /* Pods-Stylish_Example-umbrella.h */,
-				6B7AE5C5B576515CEC14D1CFBBCABE85 /* Pods-Stylish_Example.debug.xcconfig */,
-				826D04DF0E57CC8EA02BB7BE5BDC954D /* Pods-Stylish_Example.release.xcconfig */,
+				7689851F125E4451E6890A40FC3DAF65 /* StylishSwift */,
 			);
-			name = "Pods-Stylish_Example";
-			path = "Target Support Files/Pods-Stylish_Example";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4B23B35369A9533E91F9C93322A38776 /* Targets Support Files */ = {
+		6422F5B1E3F1F2338FB344CE6BA383B1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28BC02AD92961D7011463FE9A7A84D7B /* Pods-Stylish_Example */,
+				03CB1013A947C3B77FBA5EC0B3A3D418 /* StylishSwift.modulemap */,
+				DD6F941ADC1C2395AB7B9BC8AC5A7756 /* StylishSwift-dummy.m */,
+				3C7F55CACAD875BA70A237C611F49869 /* StylishSwift-Info.plist */,
+				74EF124908B1F89B1C0AB53E7FF1221C /* StylishSwift-prefix.pch */,
+				56C65C8D512C7587746964460501155F /* StylishSwift-umbrella.h */,
+				C782A6C5D362321AD9DF8967880093DF /* StylishSwift.debug.xcconfig */,
+				E7C4EEEF5E28FFE531A3A951AD986699 /* StylishSwift.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StylishSwift";
 			sourceTree = "<group>";
 		};
-		5C5428B25803347D453718CEA148E518 /* Products */ = {
+		6DF07CFE31F74FF1720426185F534BE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				252524C88E1F61C21F6ADF5CA786C9B3 /* Pods_Stylish_Example.framework */,
-				3B70951E95FE425CEC0C7944EC2AB6A7 /* Stylish.framework */,
+				2E264ED7CAE3A2BE198F6A4B31FA6FAA /* Pods_StylishSwift_Example.framework */,
+				2EE08789BEF31BCB78D84EB5CDEAACCC /* StylishSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FDCA0E43133C8ED95A9F7C4E034CEC3 /* Stylish */ = {
+		718C4093A3F25E44D6508C785C8475BA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1CE3480CC51E29A848164734E5C93E97 /* Stylish.swift */,
-				E529D01165FB64112EE6EAF6448B979E /* Pod */,
-				994C788F14C10910FF733FEF0D337B2C /* Support Files */,
+				71628227A8DA860D654BE584D3C6B5C7 /* LICENSE */,
+				52467A906EFFD0BD3CD146E11805B221 /* README.md */,
+				1A797D6EEBF4F0BB077354741B673C90 /* StylishSwift.podspec */,
 			);
-			name = Stylish;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7689851F125E4451E6890A40FC3DAF65 /* StylishSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4910ACE8F3F263C26FB20A0800F05F68 /* StylishSwift.swift */,
+				718C4093A3F25E44D6508C785C8475BA /* Pod */,
+				6422F5B1E3F1F2338FB344CE6BA383B1 /* Support Files */,
+			);
+			name = StylishSwift;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		994C788F14C10910FF733FEF0D337B2C /* Support Files */ = {
+		927197DBBAD648AEA408FE2C7E60AED4 /* Pods-StylishSwift_Example */ = {
 			isa = PBXGroup;
 			children = (
-				8DDD74126B40111E0E057ADCC6AC11F4 /* Stylish.modulemap */,
-				97602D66572845ED8E24B5864A139A25 /* Stylish-dummy.m */,
-				5FD927FD41C835722AB4EE0FA30EA00B /* Stylish-Info.plist */,
-				61DEAF5B69ADE9DEBEFCBEABAD0BB9F8 /* Stylish-prefix.pch */,
-				326AC3D8C7D65C38241F2D8EABFD2518 /* Stylish-umbrella.h */,
-				C72CC48828107B15087C5672992EAB7B /* Stylish.debug.xcconfig */,
-				B09D997517651E083AA4F1BB82DC77EC /* Stylish.release.xcconfig */,
+				6766685B4402BD571030D436C028F1CA /* Pods-StylishSwift_Example.modulemap */,
+				3F6C7B043C3CE54730946347790B910A /* Pods-StylishSwift_Example-acknowledgements.markdown */,
+				14CF620D30770265EFB4C0AE4BB2F5C9 /* Pods-StylishSwift_Example-acknowledgements.plist */,
+				6C57DC742A935FDD0A8039080A09ACE3 /* Pods-StylishSwift_Example-dummy.m */,
+				8AF6975A750A10BADFE42B677453FAA9 /* Pods-StylishSwift_Example-frameworks.sh */,
+				A1C820F8E08D91FFE6D6397FCD4B2BF9 /* Pods-StylishSwift_Example-Info.plist */,
+				B59DF8035C78E64DEB19E69821CE52AC /* Pods-StylishSwift_Example-umbrella.h */,
+				9B3DAAFED6AF72A6B8F926FDA0EA1C3B /* Pods-StylishSwift_Example.debug.xcconfig */,
+				C125B60892A9858ACBDE1D1CAFE51988 /* Pods-StylishSwift_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Stylish";
+			name = "Pods-StylishSwift_Example";
+			path = "Target Support Files/Pods-StylishSwift_Example";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -145,10 +155,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F7C0BD951913C11B6343E2EE1BD5D129 /* Development Pods */,
+				4770358459D2DB42ADB03DEE4EAE083E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5C5428B25803347D453718CEA148E518 /* Products */,
-				4B23B35369A9533E91F9C93322A38776 /* Targets Support Files */,
+				6DF07CFE31F74FF1720426185F534BE6 /* Products */,
+				EDBF41DD59433D870F676F554084DD0B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,81 +170,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E529D01165FB64112EE6EAF6448B979E /* Pod */ = {
+		EDBF41DD59433D870F676F554084DD0B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA8BA6B7D0E052FB50C69C749553C39B /* LICENSE */,
-				FF644BC14DD4CE7F39F731DE0658F4F6 /* README.md */,
-				B3A35C46703CFEA51E2F0902AEF637AD /* Stylish.podspec */,
+				927197DBBAD648AEA408FE2C7E60AED4 /* Pods-StylishSwift_Example */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F7C0BD951913C11B6343E2EE1BD5D129 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7FDCA0E43133C8ED95A9F7C4E034CEC3 /* Stylish */,
-			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		669889A4CAB7C378E5215A9F56B2C61C /* Headers */ = {
+		3398774F1CDEFC7DE67469366730F7EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A082B8EEAC1B6150BECAB42976486FB5 /* Pods-Stylish_Example-umbrella.h in Headers */,
+				19427DCA9915628BF49560C96DBFD2A6 /* Pods-StylishSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC687E4CA36A6AEFAB86FDB1D9D38591 /* Headers */ = {
+		454179D250F89FA4BA013B5E05C36F39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09725C64056B0561742CB5BB0582959E /* Stylish-umbrella.h in Headers */,
+				2783215E0022D384BC6C54A0D6FA68FA /* StylishSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7CCB5021DB319811F34C02ACDE9AB25D /* Stylish */ = {
+		01D49C99B9C0B5825C877B5C566B1C1A /* StylishSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8153736EC473BA878CCA43EE66749C8F /* Build configuration list for PBXNativeTarget "Stylish" */;
+			buildConfigurationList = 2F58AD490941D10E4F7E6120963D6E4F /* Build configuration list for PBXNativeTarget "StylishSwift" */;
 			buildPhases = (
-				BC687E4CA36A6AEFAB86FDB1D9D38591 /* Headers */,
-				827C9643E03BDCC7679811AD34C15A95 /* Sources */,
-				68AC8FD11CE2B3DE02D9CD9C69FEE000 /* Frameworks */,
-				5D1F0C006AE6E40400FB4594ECC2E1C7 /* Resources */,
+				454179D250F89FA4BA013B5E05C36F39 /* Headers */,
+				54966CBE24DE152814A0911E21F69066 /* Sources */,
+				5D5B0D45915EEE2F2148FB8F9F7EF6D1 /* Frameworks */,
+				AE39D6CB21D272C71799ECF15533E8BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Stylish;
-			productName = Stylish;
-			productReference = 3B70951E95FE425CEC0C7944EC2AB6A7 /* Stylish.framework */;
+			name = StylishSwift;
+			productName = StylishSwift;
+			productReference = 2EE08789BEF31BCB78D84EB5CDEAACCC /* StylishSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8BBCBBF6FC01E3D2954D98ADA7973464 /* Pods-Stylish_Example */ = {
+		8F090E4BAF9E3299D5C9AF1E3D8DA12F /* Pods-StylishSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB9CADF6164783C17202B49F76A2234A /* Build configuration list for PBXNativeTarget "Pods-Stylish_Example" */;
+			buildConfigurationList = E6B007C152F4A7D8D87784E722E61EF0 /* Build configuration list for PBXNativeTarget "Pods-StylishSwift_Example" */;
 			buildPhases = (
-				669889A4CAB7C378E5215A9F56B2C61C /* Headers */,
-				F99086E2F61834D86F6A77F21132A9E9 /* Sources */,
-				FD3AD9564ED38FC50ACCC3A94C7132AC /* Frameworks */,
-				2F5FE5A53384888A0612178BCC49CF97 /* Resources */,
+				3398774F1CDEFC7DE67469366730F7EB /* Headers */,
+				878B0222C2772D6FAE61FF4BDE74118E /* Sources */,
+				6160B5439F9A882B6A17EFFEBCE16BE2 /* Frameworks */,
+				BA06F7A315D16BB2EB9475CE0043B42C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEF2E21877B120F5A2196155ACE99CC3 /* PBXTargetDependency */,
+				A43D303BC7DB5EF137CE73467CFC71BF /* PBXTargetDependency */,
 			);
-			name = "Pods-Stylish_Example";
-			productName = "Pods-Stylish_Example";
-			productReference = 252524C88E1F61C21F6ADF5CA786C9B3 /* Pods_Stylish_Example.framework */;
+			name = "Pods-StylishSwift_Example";
+			productName = "Pods-StylishSwift_Example";
+			productReference = 2E264ED7CAE3A2BE198F6A4B31FA6FAA /* Pods_StylishSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -255,25 +255,25 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5C5428B25803347D453718CEA148E518 /* Products */;
+			productRefGroup = 6DF07CFE31F74FF1720426185F534BE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BBCBBF6FC01E3D2954D98ADA7973464 /* Pods-Stylish_Example */,
-				7CCB5021DB319811F34C02ACDE9AB25D /* Stylish */,
+				8F090E4BAF9E3299D5C9AF1E3D8DA12F /* Pods-StylishSwift_Example */,
+				01D49C99B9C0B5825C877B5C566B1C1A /* StylishSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F5FE5A53384888A0612178BCC49CF97 /* Resources */ = {
+		AE39D6CB21D272C71799ECF15533E8BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D1F0C006AE6E40400FB4594ECC2E1C7 /* Resources */ = {
+		BA06F7A315D16BB2EB9475CE0043B42C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,72 +283,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		827C9643E03BDCC7679811AD34C15A95 /* Sources */ = {
+		54966CBE24DE152814A0911E21F69066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1889F5B493404EE041DB4B2C187B340 /* Stylish-dummy.m in Sources */,
-				0771152B8D4EC80E62B5C8627700AD08 /* Stylish.swift in Sources */,
+				F372146C85189AAFF2AC718369808348 /* StylishSwift-dummy.m in Sources */,
+				41E4E92116E21DFB56D74A5A731EEFB6 /* StylishSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F99086E2F61834D86F6A77F21132A9E9 /* Sources */ = {
+		878B0222C2772D6FAE61FF4BDE74118E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67176E6D9C6C8225F619FA1D4AD32A60 /* Pods-Stylish_Example-dummy.m in Sources */,
+				340EEC1ADA63493B89F4BE48117E3772 /* Pods-StylishSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEF2E21877B120F5A2196155ACE99CC3 /* PBXTargetDependency */ = {
+		A43D303BC7DB5EF137CE73467CFC71BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Stylish;
-			target = 7CCB5021DB319811F34C02ACDE9AB25D /* Stylish */;
-			targetProxy = 500CD10EBD0FAAA4647424EE2C2BE461 /* PBXContainerItemProxy */;
+			name = StylishSwift;
+			target = 01D49C99B9C0B5825C877B5C566B1C1A /* StylishSwift */;
+			targetProxy = 575E1DC8DE9D22D8BBF36E28E9386427 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		49CD7CF16045215BDED301873477347F /* Release */ = {
+		0613BA81BA979F88F6B6D3BFE679DE9D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 826D04DF0E57CC8EA02BB7BE5BDC954D /* Pods-Stylish_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Stylish_Example/Pods-Stylish_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Stylish_Example/Pods-Stylish_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6341C115BC155A803D9F3C22E41CD956 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B09D997517651E083AA4F1BB82DC77EC /* Stylish.release.xcconfig */;
+			baseConfigurationReference = C782A6C5D362321AD9DF8967880093DF /* StylishSwift.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -359,28 +325,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Stylish/Stylish-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Stylish/Stylish-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/StylishSwift/StylishSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StylishSwift/StylishSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Stylish/Stylish.modulemap";
-				PRODUCT_MODULE_NAME = Stylish;
-				PRODUCT_NAME = Stylish;
+				MODULEMAP_FILE = "Target Support Files/StylishSwift/StylishSwift.modulemap";
+				PRODUCT_MODULE_NAME = StylishSwift;
+				PRODUCT_NAME = StylishSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7545B595E25DE9C3D9EB3D130A4F1D8D /* Debug */ = {
+		0B4FF7A6644E293A2AFE5C363224447B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B7AE5C5B576515CEC14D1CFBBCABE85 /* Pods-Stylish_Example.debug.xcconfig */;
+			baseConfigurationReference = 9B3DAAFED6AF72A6B8F926FDA0EA1C3B /* Pods-StylishSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -392,12 +357,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Stylish_Example/Pods-Stylish_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StylishSwift_Example/Pods-StylishSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Stylish_Example/Pods-Stylish_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-StylishSwift_Example/Pods-StylishSwift_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -535,9 +500,9 @@
 			};
 			name = Debug;
 		};
-		E3D40C9A479A3032AAB204E7DD9DD359 /* Debug */ = {
+		DCAC193A6F2032A68421D4A387761AEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C72CC48828107B15087C5672992EAB7B /* Stylish.debug.xcconfig */;
+			baseConfigurationReference = E7C4EEEF5E28FFE531A3A951AD986699 /* StylishSwift.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -548,27 +513,71 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Stylish/Stylish-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Stylish/Stylish-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/StylishSwift/StylishSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StylishSwift/StylishSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Stylish/Stylish.modulemap";
-				PRODUCT_MODULE_NAME = Stylish;
-				PRODUCT_NAME = Stylish;
+				MODULEMAP_FILE = "Target Support Files/StylishSwift/StylishSwift.modulemap";
+				PRODUCT_MODULE_NAME = StylishSwift;
+				PRODUCT_NAME = StylishSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		E3B4D3BAB57C8484190C3D0D0F4FD6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C125B60892A9858ACBDE1D1CAFE51988 /* Pods-StylishSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StylishSwift_Example/Pods-StylishSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StylishSwift_Example/Pods-StylishSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F58AD490941D10E4F7E6120963D6E4F /* Build configuration list for PBXNativeTarget "StylishSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0613BA81BA979F88F6B6D3BFE679DE9D /* Debug */,
+				DCAC193A6F2032A68421D4A387761AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -578,20 +587,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8153736EC473BA878CCA43EE66749C8F /* Build configuration list for PBXNativeTarget "Stylish" */ = {
+		E6B007C152F4A7D8D87784E722E61EF0 /* Build configuration list for PBXNativeTarget "Pods-StylishSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3D40C9A479A3032AAB204E7DD9DD359 /* Debug */,
-				6341C115BC155A803D9F3C22E41CD956 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB9CADF6164783C17202B49F76A2234A /* Build configuration list for PBXNativeTarget "Pods-Stylish_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7545B595E25DE9C3D9EB3D130A4F1D8D /* Debug */,
-				49CD7CF16045215BDED301873477347F /* Release */,
+				0B4FF7A6644E293A2AFE5C363224447B /* Debug */,
+				E3B4D3BAB57C8484190C3D0D0F4FD6B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

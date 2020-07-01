@@ -2,7 +2,7 @@
 
 import UIKit
 
-import Stylish
+import StylishSwift
 
 class ViewController: UIViewController {
 

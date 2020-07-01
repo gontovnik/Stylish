@@ -1,0 +1,6 @@
+framework module StylishSwift {
+  umbrella header "StylishSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

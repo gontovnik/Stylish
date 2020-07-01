@@ -1,9 +1,9 @@
 {
-  "name": "Stylish",
+  "name": "StylishSwift",
   "version": "0.1.0",
   "summary": "Very basic components for styling pretty-much anything.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/gontovnik/Stylish",
+  "homepage": "https://github.com/gontovnik/StylishSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -20,7 +20,7 @@
     "ios": "8.0"
   },
   "swift_versions": "5.0",
-  "source_files": "Stylish/Classes/**/*",
+  "source_files": "StylishSwift/Classes/**/*",
   "frameworks": "Foundation",
   "swift_version": "5.0"
 }

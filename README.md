@@ -1,9 +1,9 @@
-# Stylish
+# StylishSwift
 
-[![CI Status](https://img.shields.io/travis/gontovnik/Stylish.svg?style=flat)](https://travis-ci.org/gontovnik/Stylish)
-[![Version](https://img.shields.io/cocoapods/v/Stylish.svg?style=flat)](https://cocoapods.org/pods/Stylish)
-[![License](https://img.shields.io/cocoapods/l/Stylish.svg?style=flat)](https://cocoapods.org/pods/Stylish)
-[![Platform](https://img.shields.io/cocoapods/p/Stylish.svg?style=flat)](https://cocoapods.org/pods/Stylish)
+[![CI Status](https://img.shields.io/travis/gontovnik/StylishSwift.svg?style=flat)](https://travis-ci.org/gontovnik/StylishSwift)
+[![Version](https://img.shields.io/cocoapods/v/StylishSwift.svg?style=flat)](https://cocoapods.org/pods/StylishSwift)
+[![License](https://img.shields.io/cocoapods/l/StylishSwift.svg?style=flat)](https://cocoapods.org/pods/StylishSwift)
+[![Platform](https://img.shields.io/cocoapods/p/StylishSwift.svg?style=flat)](https://cocoapods.org/pods/StylishSwift)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Stylish is available through [CocoaPods](https://cocoapods.org). To install
+StylishSwift is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Stylish'
+pod 'StylishSwift'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ gontovnik, danil@gontovnik.com
 
 ## License
 
-Stylish is available under the MIT license. See the LICENSE file for more info.
+StylishSwift is available under the MIT license. See the LICENSE file for more info.

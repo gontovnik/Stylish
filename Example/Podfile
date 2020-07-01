@@ -1,5 +1,5 @@
 use_frameworks!
 
-target 'Stylish_Example' do
-  pod 'Stylish', :path => '../'
+target 'StylishSwift_Example' do
+  pod 'StylishSwift', :path => '../'
 end

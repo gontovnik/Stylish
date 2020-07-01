@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Stylish
+## StylishSwift
 
 Copyright (c) 2020 gontovnik <danil@gontovnik.com>
 

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double StylishVersionNumber;
-FOUNDATION_EXPORT const unsigned char StylishVersionString[];
+FOUNDATION_EXPORT double Pods_StylishSwift_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_StylishSwift_ExampleVersionString[];
 
